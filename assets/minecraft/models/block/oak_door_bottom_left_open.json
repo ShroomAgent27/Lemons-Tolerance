@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/oak_door_top",
+		"1": "block/oak_door_bottom",
+		"particle": "block/oak_door_bottom"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [15.3, 16, 16, 1], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 16, 0.7, 0], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [15.3, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [-0.1, 15, 15.2],
+			"to": [3.1, 16, 16.1],
+			"faces": {
+				"north": {"uv": [0, 5, 0.7, 6], "texture": "#0"},
+				"east": {"uv": [0, 4, 0.7, 5], "texture": "#0"},
+				"south": {"uv": [0, 4, 0.7, 5], "texture": "#0"},
+				"west": {"uv": [0, 5, 0.6, 6], "texture": "#0"},
+				"up": {"uv": [0, 4, 0.7, 4.9], "texture": "#0"},
+				"down": {"uv": [0, 4, 0.6, 4.9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [-0.1, 4, 15.2],
+			"to": [3.1, 6, 16.1],
+			"faces": {
+				"north": {"uv": [0, 4, 0.6, 6], "texture": "#0"},
+				"east": {"uv": [0, 4, 0.7, 6], "texture": "#0"},
+				"south": {"uv": [0, 4, 0.6, 6], "texture": "#0"},
+				"west": {"uv": [0, 4, 0.7, 6], "texture": "#0"},
+				"up": {"uv": [0, 4, 0.6, 4.9], "texture": "#0"},
+				"down": {"uv": [0, 4, 0.6, 4.9], "texture": "#0"}
+			}
+		}
+	]
+}
